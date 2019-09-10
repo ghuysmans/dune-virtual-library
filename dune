@@ -1,8 +1,10 @@
 (executable
  (name demo)
  (modules demo)
- (libraries clock_unix))
+ (variants native)
+ (libraries clock))
 (executable
  (name client)
  (modules client)
- (libraries clock_js))
+ (variants js)
+ (libraries clock))
