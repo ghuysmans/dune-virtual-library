@@ -1,4 +1,4 @@
 (library
- (public_name clock_unix)
+ (name clock_unix)
  (libraries unix)
  (implements clock))
